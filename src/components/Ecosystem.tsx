@@ -46,20 +46,38 @@ export const Ecosystem: React.FC = () => {
       link: '#'
     },
     {
-      id: 'dinuma',
-      name: 'Dinuma',
-      tagline: 'Live Events & Pin Ratings',
-      rating: 4.7,
-      description: 'Dynamic interactive maps, real-time ratings, and high-fidelity local experiences for Sri Lanka & beyond.',
-      longDescription: 'Dinuma connects users to localized venues, maps, authentic ratings, and community-driven event tracking. Designed as a Sri Lanka-first product with a global architecture, it leverages lightweight maps and real-time sockets to render active spots on any mobile browser.',
-      platformBadges: ['Web', 'SaaS', 'AI'],
-      iconComponent: DinumaIcon,
-      iconSrc: '/assets/images/dinuma.png',
+      id: 'stato',
+      name: 'Stato',
+      tagline: 'Foreigners Italy Companion',
+      rating: 4.6,
+      description: 'Immigration guide, Permesso di soggiorno tracker, and automated digital paperwork assistant.',
+      longDescription: 'Stato simplifies the complex Italian immigration pipeline for foreigners. It bridges public data APIs to dynamically track the status of residency applications ("Permesso di soggiorno"), calculating waiting timelines and generating standard files.',
+      platformBadges: ['Android', 'iOS', 'Web'],
+      iconComponent: StatoIcon,
+      iconSrc: '/assets/images/stato.png',
       features: [
-        'Vector map grids optimized for low-bandwidth cellular connections',
-        'Transparent ratings algorithm preventing merchant review tampering',
-        'Live events broadcast directly into local geofences',
-        'AI personalized interest routing based on user habits'
+        'Automated receipt scanner and direct questura file parser',
+        'Real-time push notifications upon government file updates',
+        'Multilingual document preparation with interactive smart forms',
+        'Active map of local offices and certified translation listings'
+      ],
+      link: '#'
+    },
+    {
+      id: 'voice-rep',
+      name: 'Voice Rep Coach',
+      tagline: 'Calisthenics Voice Trainer',
+      rating: undefined,
+      description: 'Workout repetition counter leveraging speech interpretation and custom fitness vocal loops.',
+      longDescription: 'Voice Rep Counter Coach is an interactive workout companion engineered to count repetition cycles and deliver target cues hands-free. Combining state-of-the-art audio analytics, it tracks movement rhythms in real-time.',
+      platformBadges: ['Android', 'iOS', 'AI'],
+      iconComponent: VoiceRepIcon,
+      iconSrc: '/assets/images/voice-rep-counter.jpg',
+      features: [
+        'Hands-free acoustic repetition tracker counting physical counts',
+        'Variable speed dynamic vocal coach that matches your actual tempo',
+        'Pre-programmed workout sets, audio splits, and recovery voice cues',
+        'Seamless integration with popular streaming music channels'
       ],
       link: '#'
     },
@@ -82,20 +100,20 @@ export const Ecosystem: React.FC = () => {
       link: '#'
     },
     {
-      id: 'stato',
-      name: 'Stato',
-      tagline: 'Foreigners Italy Companion',
-      rating: 4.6,
-      description: 'Immigration guide, Permesso di soggiorno tracker, and automated digital paperwork assistant.',
-      longDescription: 'Stato simplifies the complex Italian immigration pipeline for foreigners. It bridges public data APIs to dynamically track the status of residency applications ("Permesso di soggiorno"), calculating waiting timelines and generating standard files.',
-      platformBadges: ['Android', 'iOS', 'Web'],
-      iconComponent: StatoIcon,
-      iconSrc: '/assets/images/stato.png',
+      id: 'dinuma',
+      name: 'Dinuma',
+      tagline: 'Live Events & Pin Ratings',
+      rating: 4.7,
+      description: 'Dynamic interactive maps, real-time ratings, and high-fidelity local experiences for Sri Lanka & beyond.',
+      longDescription: 'Dinuma connects users to localized venues, maps, authentic ratings, and community-driven event tracking. Designed as a Sri Lanka-first product with a global architecture, it leverages lightweight maps and real-time sockets to render active spots on any mobile browser.',
+      platformBadges: ['Web', 'SaaS', 'AI'],
+      iconComponent: DinumaIcon,
+      iconSrc: '/assets/images/dinuma.png',
       features: [
-        'Automated receipt scanner and direct questura file parser',
-        'Real-time push notifications upon government file updates',
-        'Multilingual document preparation with interactive smart forms',
-        'Active map of local offices and certified translation listings'
+        'Vector map grids optimized for low-bandwidth cellular connections',
+        'Transparent ratings algorithm preventing merchant review tampering',
+        'Live events broadcast directly into local geofences',
+        'AI personalized interest routing based on user habits'
       ],
       link: '#'
     },
@@ -148,24 +166,6 @@ export const Ecosystem: React.FC = () => {
         'Radius alerts triggering search circles for missing domestic pets',
         'Cryptographic owner claims verification via physical QR attachment mapping',
         'High-speed map render clusters handling 50k active geo-pins'
-      ],
-      link: '#'
-    },
-    {
-      id: 'voice-rep',
-      name: 'Voice Rep Coach',
-      tagline: 'Calisthenics Voice Trainer',
-      rating: undefined,
-      description: 'Workout repetition counter leveraging speech interpretation and custom fitness vocal loops.',
-      longDescription: 'Voice Rep Counter Coach is an interactive workout companion engineered to count repetition cycles and deliver target cues hands-free. Combining state-of-the-art audio analytics, it tracks movement rhythms in real-time.',
-      platformBadges: ['Android', 'iOS', 'AI'],
-      iconComponent: VoiceRepIcon,
-      iconSrc: '/assets/images/voice-rep-counter.jpg',
-      features: [
-        'Hands-free acoustic repetition tracker counting physical counts',
-        'Variable speed dynamic vocal coach that matches your actual tempo',
-        'Pre-programmed workout sets, audio splits, and recovery voice cues',
-        'Seamless integration with popular streaming music channels'
       ],
       link: '#'
     }
