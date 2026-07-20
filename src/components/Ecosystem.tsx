@@ -142,6 +142,7 @@ export const Ecosystem: React.FC = () => {
       longDescription: 'PinRet is a modern geocentric matching platform empowering local communities to signal lost items, pet alerts, and keys. It utilizes absolute privacy guardrails while ensuring high-accuracy geofences to connect lost belongings to finders.',
       platformBadges: ['Web', 'Android'],
       iconComponent: PinRetIcon,
+      iconSrc: '/assets/images/pinret.png',
       features: [
         'Anonymized chat logs with strict user verification checks',
         'Radius alerts triggering search circles for missing domestic pets',

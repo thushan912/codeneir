@@ -221,6 +221,18 @@ export const Dashboard: React.FC = () => {
                 </div>
                 <div className="p-3 bg-slate-900/50 hover:bg-slate-900/80 border border-slate-800/80 hover:border-[#1E293B] rounded-xl flex items-center gap-3 transition-all duration-200 shrink-0 w-56">
                   <div className="w-10 h-10 shrink-0 rounded-xl overflow-hidden">
+                    <img src="/assets/images/pinret.png" className="w-full h-full object-cover" alt="PinRet" />
+                  </div>
+                  <div className="min-w-0">
+                    <h5 className="text-xs font-sans font-bold text-slate-200 truncate leading-snug">PinRet</h5>
+                    <p className="text-[9px] font-mono text-slate-500 truncate leading-normal">Lost & Found</p>
+                    <p className="text-[9px] font-mono text-amber-400 font-bold flex items-center gap-0.5 mt-0.5">
+                      4.6 <Star className="w-2 h-2 fill-amber-400 stroke-amber-400" />
+                    </p>
+                  </div>
+                </div>
+                <div className="p-3 bg-slate-900/50 hover:bg-slate-900/80 border border-slate-800/80 hover:border-[#1E293B] rounded-xl flex items-center gap-3 transition-all duration-200 shrink-0 w-56">
+                  <div className="w-10 h-10 shrink-0 rounded-xl overflow-hidden">
                     <img src="/assets/images/voice-rep-counter.jpg" className="w-full h-full object-cover" alt="Voice Rep Counter" />
                   </div>
                   <div className="min-w-0">
@@ -276,6 +288,18 @@ export const Dashboard: React.FC = () => {
                   <div className="min-w-0">
                     <h5 className="text-xs font-sans font-bold text-slate-200 truncate leading-snug">Stato App</h5>
                     <p className="text-[9px] font-mono text-slate-500 truncate leading-normal">Permesso soggiorno</p>
+                    <p className="text-[9px] font-mono text-amber-400 font-bold flex items-center gap-0.5 mt-0.5">
+                      4.6 <Star className="w-2 h-2 fill-amber-400 stroke-amber-400" />
+                    </p>
+                  </div>
+                </div>
+                <div className="p-3 bg-slate-900/50 hover:bg-slate-900/80 border border-slate-800/80 hover:border-[#1E293B] rounded-xl flex items-center gap-3 transition-all duration-200 shrink-0 w-56">
+                  <div className="w-10 h-10 shrink-0 rounded-xl overflow-hidden">
+                    <img src="/assets/images/pinret.png" className="w-full h-full object-cover" alt="PinRet" />
+                  </div>
+                  <div className="min-w-0">
+                    <h5 className="text-xs font-sans font-bold text-slate-200 truncate leading-snug">PinRet</h5>
+                    <p className="text-[9px] font-mono text-slate-500 truncate leading-normal">Lost & Found</p>
                     <p className="text-[9px] font-mono text-amber-400 font-bold flex items-center gap-0.5 mt-0.5">
                       4.6 <Star className="w-2 h-2 fill-amber-400 stroke-amber-400" />
                     </p>
