@@ -122,8 +122,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center gap-2">
-                <div className="w-7 h-7 bg-gradient-to-tr from-cyan-400 to-violet-500 rounded-lg flex items-center justify-center">
-                  <span className="font-mono text-xs font-black text-slate-950">{'{:}'}</span>
+                <div className="relative w-8 h-8 flex items-center justify-center bg-slate-950 border border-slate-800 rounded-full shadow-[0_0_15px_rgba(34,211,238,0.08)]">
+                  <div className="absolute inset-0.5 border border-dashed border-slate-900/60 rounded-full animate-spin [animation-duration:10s]" />
+                  <span className="font-mono text-xs font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-500 select-none relative z-10">{'{:}'}</span>
                 </div>
                 <span className="font-display font-bold text-slate-200 tracking-wider">CODENEIR INC</span>
               </div>
