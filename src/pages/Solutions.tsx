@@ -1,110 +1,31 @@
 import { Smartphone, Cpu, Layers, TrendingUp, Settings2, Rocket } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 export default function Solutions() {
   return (
-    <section id="services" className="py-16 md:py-24 border-t border-slate-900 bg-slate-950/30 max-w-7xl mx-auto px-6">
-      <div className="space-y-12">
-        <div className="text-center space-y-2">
-          <span className="text-xs font-mono font-bold text-[#22D3EE] uppercase tracking-widest">
-            WHAT WE BUILD
-          </span>
-          <h2 className="text-3xl font-extrabold font-sans text-slate-100 tracking-tight sm:text-4xl">
-            Services That Drive Growth
-          </h2>
-          <p className="text-sm text-slate-400 max-w-2xl mx-auto leading-relaxed">
-            We custom-engineer digital frameworks configured for high performance, intuitive interface loops, and massive Organic customer acquisition.
-          </p>
+    <>
+      <SEO
+        title="Digital Product Development & AI Solutions | Codeneir"
+        description="Discover Codeneir's mobile development, AI automation, cloud engineering and digital product solutions."
+        canonicalPath="/solutions"
+      />
+      <section className="py-16 md:py-24 border-t border-slate-900 bg-slate-950/30 max-w-7xl mx-auto px-6">
+        <div className="space-y-12">
+          <div className="text-center space-y-2">
+            <span className="text-xs font-mono font-bold text-[#22D3EE] uppercase tracking-widest">WHAT WE BUILD</span>
+            <h1 className="text-3xl font-extrabold font-sans text-slate-100 tracking-tight sm:text-4xl">Services That Drive Growth</h1>
+            <p className="text-sm text-slate-400 max-w-2xl mx-auto leading-relaxed">We custom-engineer digital frameworks configured for high performance, intuitive interface loops, and massive Organic customer acquisition.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1"><div className="w-12 h-12 rounded-xl bg-cyan-950/40 text-[#22D3EE] flex items-center justify-center border border-cyan-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(34,211,238,0.2)]"><Smartphone className="w-5 h-5 relative z-10" /></div><h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-[#22D3EE] transition-colors">Mobile App Development</h4><p className="text-xs text-slate-400 font-mono mt-1 mb-3">Android • iOS • Flutter • Swift • Kotlin</p><p className="text-xs text-slate-400 leading-relaxed">High-performance mobile applications loaded directly to official App Store and Play Store storefronts.</p></div>
+            <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1"><div className="w-12 h-12 rounded-xl bg-violet-950/40 text-violet-400 flex items-center justify-center border border-violet-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(139,92,246,0.2)]"><Cpu className="w-5 h-5 relative z-10" /></div><h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-violet-400 transition-colors">AI Product Development</h4><p className="text-xs text-slate-400 font-mono mt-1 mb-3">Assistants • Automation Agents • WhatsApp AI</p><p className="text-xs text-slate-400 leading-relaxed">Intelligent cognitive agents, automated prompt structures, and smart WhatsApp notifications wired into CRM pipelines.</p></div>
+            <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1"><div className="w-12 h-12 rounded-xl bg-blue-950/40 text-blue-400 flex items-center justify-center border border-blue-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(37,99,235,0.2)]"><Layers className="w-5 h-5 relative z-10" /></div><h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-blue-400 transition-colors">SaaS Platforms</h4><p className="text-xs text-slate-400 font-mono mt-1 mb-3">Corporate Dashboards • Stripe Subscriptions</p><p className="text-xs text-slate-400 leading-relaxed">Secure server dashboards, robust user permission systems, and automated billing engines with scalable cloud infrastructure.</p></div>
+            <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1"><div className="w-12 h-12 rounded-xl bg-emerald-950/40 text-emerald-400 flex items-center justify-center border border-emerald-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(16,185,129,0.2)]"><TrendingUp className="w-5 h-5 relative z-10" /></div><h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-emerald-400 transition-colors">SEO & Growth Systems</h4><p className="text-xs text-slate-400 font-mono mt-1 mb-3">Core Web Vitals • Metadata Structuring</p><p className="text-xs text-slate-400 leading-relaxed">Technical search engine optimizations with pre-rendered semantic layouts for lightning-fast speeds and ideal Core Web Vitals ranks.</p></div>
+            <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1"><div className="w-12 h-12 rounded-xl bg-amber-950/40 text-amber-400 flex items-center justify-center border border-amber-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(245,158,11,0.2)]"><Settings2 className="w-5 h-5 relative z-10" /></div><h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-amber-400 transition-colors">Automation Systems</h4><p className="text-xs text-slate-400 font-mono mt-1 mb-3">CRM Syncing • Webhooks • Custom Pipelines</p><p className="text-xs text-slate-400 leading-relaxed">Eliminate manual overhead by routing system logs directly to automated pipelines. Sync data feeds, databases, and notifications.</p></div>
+            <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1"><div className="w-12 h-12 rounded-xl bg-rose-950/40 text-rose-400 flex items-center justify-center border border-rose-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(244,63,94,0.2)]"><Rocket className="w-5 h-5 relative z-10" /></div><h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-rose-400 transition-colors">Landing Pages</h4><p className="text-xs text-slate-400 font-mono mt-1 mb-3">High Conversion Layouts • Premium Media Sites</p><p className="text-xs text-slate-400 leading-relaxed">Visually impactful digital products focused strictly on transforming random web visitors into highly validated contract leads.</p></div>
+          </div>
         </div>
-
-        {/* Grid display */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          
-          {/* Mobile App Development */}
-          <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1">
-            <div className="w-12 h-12 rounded-xl bg-cyan-950/40 text-[#22D3EE] flex items-center justify-center border border-cyan-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(34,211,238,0.2)]">
-              <Smartphone className="w-5 h-5 relative z-10" />
-            </div>
-            <h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-[#22D3EE] transition-colors">
-              Mobile App Development
-            </h4>
-            <p className="text-xs text-slate-400 font-mono mt-1 mb-3">Android • iOS • Flutter • Swift • Kotlin</p>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              High-performance, eye-safe mobile applications loaded directly to official App Store and Play Store storefronts. Meticulously programmed for fluid screen transitions and persistent network reliability.
-            </p>
-          </div>
-
-          {/* AI Product Development */}
-          <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1">
-            <div className="w-12 h-12 rounded-xl bg-violet-950/40 text-violet-400 flex items-center justify-center border border-violet-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(139,92,246,0.2)]">
-              <Cpu className="w-5 h-5 relative z-10" />
-            </div>
-            <h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-violet-400 transition-colors">
-              AI Product Development
-            </h4>
-            <p className="text-xs text-slate-400 font-mono mt-1 mb-3">Assistants • Automation Agents • WhatsApp AI</p>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Intelligent cognitive agents, automated prompt structures, and smart WhatsApp notifications. We wire generative AI directly into your CRM pipelines to streamline client onboarding loops.
-            </p>
-          </div>
-
-          {/* SaaS Platforms */}
-          <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1">
-            <div className="w-12 h-12 rounded-xl bg-blue-950/40 text-blue-400 flex items-center justify-center border border-blue-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(37,99,235,0.2)]">
-              <Layers className="w-5 h-5 relative z-10" />
-            </div>
-            <h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-blue-400 transition-colors">
-              SaaS Platforms
-            </h4>
-            <p className="text-xs text-slate-400 font-mono mt-1 mb-3">Corporate Dashboards • Stripe Subscriptions</p>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Highly secure server dashboards, robust user permission systems, and automated billing engines. Designed with scalable cloud infrastructure to manage thousands of active user connections.
-            </p>
-          </div>
-
-          {/* SEO & Growth */}
-          <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1">
-            <div className="w-12 h-12 rounded-xl bg-emerald-950/40 text-emerald-400 flex items-center justify-center border border-emerald-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(16,185,129,0.2)]">
-              <TrendingUp className="w-5 h-5 relative z-10" />
-            </div>
-            <h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-emerald-400 transition-colors">
-              SEO & Growth Systems
-            </h4>
-            <p className="text-xs text-slate-400 font-mono mt-1 mb-3">Prinstine Core Web Vitals • Metadata Structuring</p>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Technical search engine optimizations configured to climb search engines instantly. Code assets are pre-rendered with semantic layouts for lightning-fast speeds and ideal Core Web Vitals ranks.
-            </p>
-          </div>
-
-          {/* Automation Systems */}
-          <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1">
-            <div className="w-12 h-12 rounded-xl bg-amber-950/40 text-amber-400 flex items-center justify-center border border-amber-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(245,158,11,0.2)]">
-              <Settings2 className="w-5 h-5 relative z-10" />
-            </div>
-            <h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-amber-400 transition-colors">
-              Automation Systems
-            </h4>
-            <p className="text-xs text-slate-400 font-mono mt-1 mb-3">CRM Syncing • Webhooks • Custom Pipelines</p>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Eliminate manual overhead by routing system logs directly to automated pipelines. We synchronise data feeds, databases, and notification services to save hundreds of developer hours.
-            </p>
-          </div>
-
-          {/* Landing Page Design */}
-          <div className="bg-[#090D18]/80 border border-slate-900 p-6 rounded-2xl hover:border-slate-800 transition-all duration-300 group hover:-translate-y-1">
-            <div className="w-12 h-12 rounded-xl bg-rose-950/40 text-rose-400 flex items-center justify-center border border-rose-500/10 mb-5 relative overflow-hidden group-hover:shadow-[0_0_15px_rgba(244,63,94,0.2)]">
-              <Rocket className="w-5 h-5 relative z-10" />
-            </div>
-            <h4 className="font-sans font-bold text-lg text-slate-100 group-hover:text-rose-400 transition-colors">
-              Landing Pages
-            </h4>
-            <p className="text-xs text-slate-400 font-mono mt-1 mb-3">High Conversion Layouts • Premium Media Sites</p>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Visually impactful digital products crafted with premium Space Grotesk and Inter pairings. Focused strictly on transforming random web visitors into highly validated contract leads.
-            </p>
-          </div>
-
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
