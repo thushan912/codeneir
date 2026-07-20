@@ -121,17 +121,18 @@ export default function App() {
           
           {/* Brand Logo design */}
           <a href="#" className="flex items-center gap-2.5 group relative">
-            <div className="relative flex items-center justify-center w-9 h-9 bg-gradient-to-tr from-[#22D3EE] to-[#8B5CF6] rounded-xl shadow-[0_0_20px_rgba(34,211,238,0.2)]">
-              <span className="font-mono text-base font-black text-slate-950 tracking-tighter select-none">
+            <div className="relative w-10 h-10 flex items-center justify-center bg-slate-950 border border-slate-800 rounded-full shadow-[0_0_20px_rgba(34,211,238,0.1)] group-hover:border-cyan-500/30 transition-all duration-300">
+              <div className="absolute inset-0.5 border border-dashed border-slate-900/60 rounded-full animate-spin [animation-duration:12s]" />
+              <span className="font-mono text-sm font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-500 select-none relative z-10">
                 {'{:}'}
               </span>
             </div>
-            <div>
+            <div className="text-center">
               <span className="font-display font-extrabold text-base tracking-wider text-slate-100 uppercase sm:text-lg">
                 Codeneir
               </span>
               <span className="text-[9px] font-mono block text-[#22D3EE] font-bold tracking-widest leading-none mt-0.5">
-                INC • PRODUCT STUDIO
+                PRODUCT STUDIO
               </span>
             </div>
           </a>
