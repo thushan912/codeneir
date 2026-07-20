@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
-import { 
-  ArrowRight, 
-  Menu, 
+import {
+  ArrowRight,
+  Menu,
   X,
-  Mail, 
-  Phone, 
-  Globe, 
-  MapPin
+  Mail,
+  Phone,
+  Globe,
+  MapPin,
+  MessageCircle
 } from 'lucide-react';
 import Home from './pages/Home';
 import Portfolios from './pages/Portfolios';
@@ -45,9 +46,9 @@ export default function App() {
     "description": "Codeneir Inc builds premium AI-powered applications, automation systems, SaaS tools, and conversion-focused growth platforms.",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+39-333-926-2314",
+      "telephone": "+39-351-925-2982",
       "contactType": "customer service",
-      "email": "hello@codeneir.com",
+      "email": "contact@codeneir.com",
       "areaServed": "Worldwide"
     },
     "sameAs": [
@@ -245,6 +246,16 @@ export default function App() {
         )}
       </main>
 
+      {/* WhatsApp Floating Button */}
+      <a
+        href="https://wa.me/393519252982"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:shadow-[0_6px_30px_rgba(37,211,102,0.6)] hover:scale-110 transition-all duration-300 flex items-center justify-center cursor-pointer group animate-bounce"
+      >
+        <MessageCircle className="w-7 h-7 text-white group-hover:rotate-12 transition-transform" />
+      </a>
+
       {/* FOOTER SECTION */}
       <footer className="bg-[#05070D] border-t border-slate-900/85 z-10 relative">
         <div className="max-w-7xl mx-auto px-6 py-12 space-y-10">
@@ -277,11 +288,11 @@ export default function App() {
               <ul className="space-y-2.5 text-xs text-slate-400">
                 <li className="flex items-center gap-2 group hover:text-white transition-colors duration-150">
                   <Mail className="w-4 h-4 text-slate-600 group-hover:text-[#22D3EE]" />
-                  <a href="mailto:hello@codeneir.com">hello@codeneir.com</a>
+                  <a href="mailto:contact@codeneir.com">contact@codeneir.com</a>
                 </li>
                 <li className="flex items-center gap-2 group hover:text-white transition-colors duration-150">
                   <Phone className="w-4 h-4 text-slate-600 group-hover:text-emerald-400" />
-                  <a href="tel:+393339262314">+39 333 926 2314</a>
+                  <a href="tel:+393519252982">+39 351 925 2982</a>
                 </li>
                 <li className="flex items-center gap-2 group hover:text-white transition-colors duration-150">
                   <Globe className="w-4 h-4 text-slate-600 group-hover:text-violet-400" />
