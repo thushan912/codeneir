@@ -34,7 +34,7 @@ export const Ecosystem: React.FC = () => {
       rating: 4.9,
       description: 'Offline database call blocker built for supreme spam prevention and absolute caller privacy in Italy.',
       longDescription: 'Difesa Spam is a market-leading call-blocking application built to prevent spam calls, robocalls, and marketing aggression without ever uploading your contacts. It functions completely offline with an encrypted database optimized to safeguard Italian mobile users.',
-      platformBadges: ['Android', 'iOS'],
+      platformBadges: ['Android'],
       iconComponent: DifesaSpamIcon,
       iconSrc: '/assets/images/difesa spam.png',
       features: [
