@@ -23,6 +23,7 @@ export default function TechStack() {
             { name: 'Firebase', color: 'border-amber-500/20 text-amber-300 bg-amber-950/10' },
             { name: 'Supabase', color: 'border-emerald-500/20 text-emerald-300 bg-emerald-950/10' },
             { name: 'Flutter', color: 'border-sky-500/20 text-sky-300 bg-sky-950/10' },
+            { name: 'PHP', color: 'border-indigo-500/20 text-indigo-300 bg-indigo-950/10' },
             { name: 'Kotlin', color: 'border-indigo-500/20 text-indigo-300 bg-indigo-950/10' },
             { name: 'Swift', color: 'border-orange-500/20 text-orange-300 bg-orange-950/10' },
             { name: 'OpenAI API', color: 'border-green-500/20 text-green-300 bg-green-950/10' },
