@@ -1,0 +1,6 @@
+{
+  "name": "Codeneir Inc",
+  "description": "AI Apps, Automation & Digital Product Studio. We build high-performing mobile apps, SaaS platforms, SEO systems, and automation tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
