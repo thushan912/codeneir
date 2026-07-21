@@ -1,11 +1,29 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import fs from 'node:fs';
+import {defineConfig, type Plugin} from 'vite';
+
+// Automatically copies root-level assets/ into dist/assets/ at build time.
+// This removes the need to manually move assets/ into public/ on every checkout.
+function copyAssetsPlugin(): Plugin {
+  return {
+    name: 'copy-assets',
+    apply: 'build',
+    closeBundle() {
+      const src = path.resolve(__dirname, 'assets');
+      const dest = path.resolve(__dirname, 'dist', 'assets');
+      if (fs.existsSync(src) && !fs.existsSync(dest)) {
+        fs.cpSync(src, dest, {recursive: true});
+        console.log('  ✓ Copied root assets/ → dist/assets/');
+      }
+    },
+  };
+}
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss()],
+    plugins: [react(), tailwindcss(), copyAssetsPlugin()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
