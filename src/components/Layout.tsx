@@ -74,6 +74,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </Link>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
               className="p-2 bg-slate-950/80 border border-slate-900 rounded-xl text-slate-300 hover:text-white transition-colors"
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -111,6 +112,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         href="https://wa.me/393519252982"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Chat with Codeneir on WhatsApp"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:shadow-[0_6px_30px_rgba(37,211,102,0.6)] hover:scale-110 transition-all duration-300 flex items-center justify-center cursor-pointer group animate-whatsapp"
       >
         <MessageCircle className="w-7 h-7 text-white group-hover:rotate-12 transition-transform" />

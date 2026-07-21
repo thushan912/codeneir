@@ -235,6 +235,7 @@ export const ContactForm: React.FC = () => {
                   <select
                     value={timeline}
                     onChange={(e) => setTimeline(e.target.value)}
+                    aria-label="Requested project timeline"
                     className="w-full bg-slate-950 border border-slate-900 rounded-xl px-4 py-3 text-xs text-slate-300 focus:outline-none focus:border-cyan-500/50 transition-colors"
                   >
                     <option value="1-2">⚡ 1 to 2 Months (Rapid Release)</option>

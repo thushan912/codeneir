@@ -1,0 +1,24 @@
+# Codeneir — AI Apps, Automation & Digital Product Studio
+
+Codeneir Inc builds mobile apps, SaaS platforms, AI assistants, SEO systems, and automation tools that help modern businesses launch faster, work smarter, and grow online.
+
+## Site Map
+
+- [Home](https://codeneir.com/) — Overview, dashboard, and contact form
+- [Portfolio](https://codeneir.com/portfolio) — Our digital product ecosystem (Difesa Spam, Dinuma, MotiNote, Stato, PromoTV, Codisignal, PinRet, Voice Rep Coach)
+- [Solutions](https://codeneir.com/solutions) — Services: Mobile App Development, AI Products, SaaS Platforms, SEO & Growth, Automation, Landing Pages
+- [Case Studies](https://codeneir.com/case-studies) — Real product case studies with measurable results
+- [Technology](https://codeneir.com/technology) — Tech stack: Next.js, TypeScript, Tailwind CSS, Firebase, Supabase, Flutter, PHP, Kotlin, Swift, OpenAI, Stripe, Vercel
+- [Why Codeneir](https://codeneir.com/why-codeneir) — SEO-first architecture, lightning performance, app store excellence, scalable systems
+
+## About
+
+Codeneir Inc is an Italy-based, worldwide-ready digital product studio. We custom-engineer mobile applications, SaaS platforms, AI automation agents, and SEO-optimized web ecosystems. Every product is programmed with clean TypeScript, hosted on lightning-fast global networks, and structured for absolute search engine authority.
+
+## Contact
+
+- Website: https://codeneir.com
+- Email: contact@codeneir.com
+- Phone: +39 351 925 2982
+- WhatsApp: https://wa.me/393519252982
+- Location: Milan, Italy
