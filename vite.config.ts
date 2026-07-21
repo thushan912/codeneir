@@ -13,9 +13,9 @@ function copyAssetsPlugin(): Plugin {
     closeBundle() {
       const src = path.resolve(__dirname, 'assets');
       const dest = path.resolve(__dirname, 'dist', 'assets');
-      if (fs.existsSync(src) && !fs.existsSync(dest)) {
-        fs.cpSync(src, dest, {recursive: true});
-        console.log('  ✓ Copied root assets/ → dist/assets/');
+      if (fs.existsSync(src)) {
+        fs.cpSync(src, dest, {recursive: true, force: true});
+        console.log('  ✓ Synced root assets/ → dist/assets/');
       }
     },
   };
