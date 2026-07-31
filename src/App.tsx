@@ -7,6 +7,7 @@ import Solutions from './pages/Solutions';
 import CaseStudies from './pages/CaseStudies';
 import TechStack from './pages/TechStack';
 import WhyCodeneir from './pages/WhyCodeneir';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/technology" element={<TechStack />} />
             <Route path="/why-codeneir" element={<WhyCodeneir />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Layout>
       </BrowserRouter>

@@ -62,11 +62,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <Link to="/case-studies" className={`hover:text-white transition-colors ${currentPage === 'case-studies' ? 'text-[#22D3EE]' : ''}`}>Case Studies</Link>
             <Link to="/technology" className={`hover:text-white transition-colors ${currentPage === 'technology' ? 'text-[#22D3EE]' : ''}`}>Tech Stack</Link>
             <Link to="/why-codeneir" className={`hover:text-white transition-colors ${currentPage === 'why-codeneir' ? 'text-[#22D3EE]' : ''}`}>Why Codeneir</Link>
+            <Link to="/contact" className={`hover:text-white transition-colors ${currentPage === 'contact' ? 'text-[#22D3EE]' : ''}`}>Contact</Link>
           </nav>
 
           <div className="flex items-center gap-4">
             <Link
-              to="/#contact"
+              to="/contact"
               className="hidden sm:inline-flex items-center gap-2.5 px-5 py-2.5 bg-gradient-to-r from-cyan-500 via-blue-500 to-violet-600 font-sans font-bold text-xs rounded-xl shadow-[0_0_35px_rgba(34,211,238,0.35)] hover:shadow-[0_0_45px_rgba(34,211,238,0.5)] transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer text-white"
             >
               Start a Project
@@ -92,8 +93,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <Link to="/case-studies" className="hover:text-white text-lg transition-colors">Case Studies</Link>
             <Link to="/technology" className="hover:text-white text-lg transition-colors">Technology Stack</Link>
             <Link to="/why-codeneir" className="hover:text-white text-lg transition-colors">Why Codeneir</Link>
+            <Link to="/contact" className="hover:text-white text-lg transition-colors">Contact Us</Link>
             <Link
-              to="/#contact"
+              to="/contact"
               className="px-6 py-3 mt-4 bg-gradient-to-r from-cyan-500 to-violet-600 rounded-xl font-sans font-bold text-sm text-center text-white shadow-[0_0_20px_rgba(34,211,238,0.25)]"
             >
               Start Your Project Now
