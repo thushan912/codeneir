@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   }, [location.pathname]);
 
   return (
-    <div className="font-sans min-h-screen text-slate-100 flex flex-col relative overflow-x-hidden selection:bg-cyan-500/30 selection:text-white">
+    <div className="font-sans min-h-screen text-slate-100 flex flex-col relative selection:bg-cyan-500/30 selection:text-white">
       {/* Cybernetic background base elements */}
       <div className="fixed inset-0 bg-[#05070D] pointer-events-none z-0" />
       <div
@@ -105,7 +105,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       )}
 
       {/* Main Content */}
-      <main className="flex-grow z-10 relative">
+      <main className="flex-grow z-10 relative overflow-x-hidden">
         {children}
       </main>
 
