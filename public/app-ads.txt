@@ -3,6 +3,7 @@ facebook.com, 103841772251058, DIRECT, c3e20eee3f780d68
 facebook.com, 200162399294415, DIRECT, c3e20eee3f780d68
 facebook.com, 1098223354973476, DIRECT, c3e20eee3f780d68
 chartboost.com, 6649dc182136959e5556a108, DIRECT
+vungle.com, 6a7f2a39275cd0a4eba44928, DIRECT, c107d686becd2d77
 appnexus.com, 10005, RESELLER, f5ab79cb980f11d1
 bidmachine.io, 98, RESELLER
 indexexchange.com, 185578, RESELLER, 50b1c356f2c5c8fc
