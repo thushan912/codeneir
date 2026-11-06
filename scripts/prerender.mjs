@@ -6,7 +6,7 @@ import puppeteer from 'puppeteer';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const distDir = join(__dirname, '..', 'dist');
 const siteUrl = 'https://codeneir.com';
-const port = 4173; // Vite preview default port
+const port = process.env.PREVIEW_PORT || 4173; // Vite preview port
 
 const routes = [
   { path: '/', file: 'index.html' },
@@ -19,7 +19,10 @@ const routes = [
 
 async function prerender() {
   console.log('Starting prerender...');
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  });
   const page = await browser.newPage();
   await page.setViewport({ width: 1280, height: 720 });
 

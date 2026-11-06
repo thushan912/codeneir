@@ -8,6 +8,7 @@ import CaseStudies from './pages/CaseStudies';
 import TechStack from './pages/TechStack';
 import WhyCodeneir from './pages/WhyCodeneir';
 import Contact from './pages/Contact';
+import ImageUpload from './pages/ImageUpload';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="/technology" element={<TechStack />} />
             <Route path="/why-codeneir" element={<WhyCodeneir />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/admin/images" element={<ImageUpload />} />
           </Routes>
         </Layout>
       </BrowserRouter>
